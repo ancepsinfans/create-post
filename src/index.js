@@ -86,7 +86,11 @@ readFilePromiseRelative(templatePath)
   .then((template) =>
     // Replace our placeholders with real data (so far, just the component name)
     template.replace(/POST_TITLE/g, postName)
+  )
+  .then((template) => 
     template.replace(/DATE_TODAY/g, date)
+  )
+  .then((template) =>
     template.replace(/POST_DESK/g, desk)
   )
   .then((template) =>
