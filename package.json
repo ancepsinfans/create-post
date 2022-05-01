@@ -1,0 +1,33 @@
+{
+  "name": "create-post",
+  "version": "0.0.1",
+  "description": "CLI for creating new post",
+  "homepage": "https://github.com/ancepsinfans/create-post",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ancepsinfans/create-post"
+  },
+  "bugs": {
+    "url": "https://github.com/ancepsinfans/create-post/issues"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "cli",
+    "boilerplate"
+  ],
+  "author": "Zach Bullard",
+  "license": "MIT",
+  "bin": {
+    "create-post": "./src/index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "prettier": "1.5.3"
+  }
+}
